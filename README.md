@@ -28,7 +28,7 @@ It has become increasingly more apparently that the public values an organizatio
 |**Biodiversity**|*float*|Captures land use and toxicity.|
 |**Abiotic Resources**|*float*|Environmental Impact from mining.|
 |**Water production capacity (Drinking water & Irrigation Water)**|*float*|Captures climate change, land use, and water pollution.|
-|**Wood Production Capacity **|*float*|Captures climate change, air pollution, and land use.|
+|**Wood Production Capacity**|*float*|Captures climate change, air pollution, and land use.|
 |**SDG 1.5**|*float*|By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters.|
 |**SDG 2.1**|*float*|By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.|
 |**SDG 2.2**|*float*|By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons.|
