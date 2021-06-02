@@ -7,8 +7,9 @@ The objective of this project is to create a regression model that accounts for 
 It has become increasingly more apparently that the public values an organization's environmental and societal footprint. I have been tasked to explore non-traditional company data and attempt to explain the connection between the data and the financial situation of publicly traded companies in the Russell 2000. By utilizing financial data, environmental impact data, ESG Scores, employee data, employee reviews and public sentiment from news headlines, I hope to provide insight on the importance of non-traditional data in relation to a company's market cap.
 
 ## **Repository Contents:**
-1. **[code]** *bo_codingchallenge.ipynb*:  Entire code containing exploratory data analysis and modeling.
-2. **[data]**:  Folder contains Excel files for all the data used.
+1. **[code]** *bo_codingchallenge.ipynb* :  Entire code containing exploratory data analysis and modeling.
+2. **[code]** *Webscraping.ipynb* :  Code for webscraping Google Top News Headers for each company and Glassdoor Employee Reviews.
+2. **[data]** :  Folder contains Excel files for all the data used.
 
 
 ## **Data Dictionary**
@@ -63,3 +64,9 @@ https://www.refinitiv.com/en/sustainable-finance/esg-scores
 
 For Employee Data & Growth Rates:
 https://www.macrotrends.net/stocks/charts/WBT/welbilt/number-of-employees
+
+Glassdoor API:
+https://www.glassdoor.com/developer/index.htm
+
+Google News:
+https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en
