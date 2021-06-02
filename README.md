@@ -1,4 +1,4 @@
-# **BuenaOla Internship Coding Challenge**
+# **BuenaOla Coding Challenge**
 
 ## **Overview**
 The objective of this project is to create a regression model that accounts for not only the financial potential but also the environmental impact of various companies.
