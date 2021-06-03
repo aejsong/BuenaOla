@@ -9,7 +9,8 @@ It has become increasingly more apparently that the public values an organizatio
 ## **Repository Contents:**
 1. **[code]** *bo_codingchallenge.ipynb* :  Entire code containing exploratory data analysis and modeling.
 2. **[code]** *Webscraping.ipynb* :  Code for webscraping Google Top News Headers for each company and Glassdoor Employee Reviews.
-2. **[data]** :  Folder contains Excel files for all the data used.
+3. **[data]** :  Folder contains Excel files for all the data used.
+4. **[assets]** :  Folder contains image files attached in README.
 
 
 ## **Data Dictionary**
@@ -47,10 +48,19 @@ It has become increasingly more apparently that the public values an organizatio
 |**SDG 15.1**|*float*|By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements.|
 |**SDG 15.2**|*float*|By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally.|
 |**SDG 15.5**|*float*|Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species.|
+|**esg_score**|*int*|A numerical measure of how a company is performing on a wide range of environmenta, social and governance (ESG) topics.
+|**num_employees(2020)**|*int*|Number of employees at end of the year 2020.|
+|**annual_growth(%)**|*float*|Rate in which the company has increased/decreased their number of employees compared to the previous year.|
 
-Further explanation on how these numbers were derived can be found at Harvard Business School's Research on Corporate Environmental Impact <a href="https://www.hbs.edu/impact-weighted-accounts/Pages/research.aspx">here</a>.
+Further explanation on how some of these numbers were derived can be found at Harvard Business School's Research on Corporate Environmental Impact <a href="https://www.hbs.edu/impact-weighted-accounts/Pages/research.aspx">here</a>.
 
 ## **Conclusions & Recommendations**
+![](assets/graph_b.png)
+
+The linear regression scored 0.89 on the Training Data and 0.27 on the Testing Data. We can conclude that the model is overfitting to the Training Data and that variations are not being captured. Two possible reasons for the low performance of this model is the small sample size and lack of variables. To remedy this, I would re-evaluate any other data that I should be including in my model, as well as, include sentiment scores for text from Glassdoor Employee Reviews and Google Top News Headers. Looking back, I would also conduct a Random Forest Regression because it doesn't require linearity between the target and variables to perform well.
+
+Some interesting insights from the data based on the correlation of variables to Market Cap include the positive correlation of conservation and sustainability of terrestrial land such as forests along with air pollution/climate change (SDG 15.1, SDG 15.2, ESG Scores, Wood Production Capacity, etc.). Some interesting negative correlations to Market Cap include topics that relate to agricultural production and initiatives that help the underrepresented and poor (SDG 1.5, SDG 2.3, SDG 2.4, Crop Production Capacity, Meat Production Capacity). Based on the magnitude of the correlation values, there seems to be a greater negative influence than positive influence of environmental initiatives to market cap.
+
 
 ## **Sources**
 For Russell 2000 Financial Data:
